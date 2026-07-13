@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+ENV/
+
+# Note: We specifically DO NOT ignore the models directory because best_random_forest.pkl MUST be copied into the container for the API to run.
+
+# Other unnecessary files
+datasets/
+data/
+*.csv
+.vscode/
+.idea/
